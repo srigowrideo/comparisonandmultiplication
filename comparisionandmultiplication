@@ -1,0 +1,49 @@
+CMP BL,01H
+CMP CX,BX
+CMP CX,TOTAL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MUL BL
+MUL BX
+MUL WORD PTR[BX]
+
+
+
+
+
+
+
+
+
+
+
+
+
+IMUL BL
+IMUL CX
+
+
+
+
+
+
